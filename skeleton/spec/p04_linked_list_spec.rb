@@ -22,6 +22,7 @@ describe LinkedList do
     it "creates a head node" do
       expect(list.instance_variable_get(:@head).class).to be(Node)
     end
+    
     it "creates a tail node" do
       expect(list.instance_variable_get(:@tail).class).to be(Node)
     end
